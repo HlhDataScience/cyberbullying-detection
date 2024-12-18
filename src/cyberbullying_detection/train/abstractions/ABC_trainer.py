@@ -15,7 +15,8 @@ from abc import ABC, abstractmethod
 from typing import Any
 
 import pydantic
-from train.abstractions.ABC_validations import (
+
+from src.cyberbullying_detection.train.abstractions.ABC_validations import (
     IConfigModel,
     IConfigurationLoader,
     IExperimentTracker,

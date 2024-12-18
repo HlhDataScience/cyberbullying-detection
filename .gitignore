@@ -1,3 +1,4 @@
 /src/cyberbullying_detection/train/datatrain
-.jupyter/desktop-settings.json
-eda_notebooks/.ipynb_checkpoints/eda_exploration-checkpoint.ipynb
+
+eda_notebooks/.ipynb_checkpoints/
+.jupyter/

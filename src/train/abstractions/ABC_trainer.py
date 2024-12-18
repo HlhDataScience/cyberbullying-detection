@@ -16,7 +16,7 @@ from typing import Any
 
 import pydantic
 
-from cyberbullying_detection.train.abstractions.ABC_validations import (
+from train.abstractions.ABC_validations import (
     IConfigModel,
     IConfigurationLoader,
     IExperimentTracker,

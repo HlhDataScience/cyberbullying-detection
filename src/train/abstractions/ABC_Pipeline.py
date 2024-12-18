@@ -51,6 +51,7 @@ from typing import List
 
 import polars as pl
 import pydantic
+
 from src.train.abstractions.ABC_validations import (
     IConfigModel,
     IConfigurationLoader,

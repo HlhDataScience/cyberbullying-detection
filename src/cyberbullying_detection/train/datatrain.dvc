@@ -1,6 +1,6 @@
 outs:
-- md5: d751713988987e9331980363e24189ce.dir
-  size: 0
-  nfiles: 0
+- md5: 2dd93e017cc88c6ee71d3eb010ac13ff.dir
+  size: 110075478
+  nfiles: 6
   hash: md5
   path: datatrain

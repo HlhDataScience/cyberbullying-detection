@@ -1,0 +1,23 @@
+[project]
+name = "cyberbullying-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hector", email = "data_analitics_HLH@protonmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3.12",
+    "polars>=1.17.1",
+    "torch>=2.5.1",
+    "torchvision>=0.20.1",
+    "transformers>=4.47.1",
+]
+
+[project.scripts]
+cyberbullying-detection = "cyberbullying_detection:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

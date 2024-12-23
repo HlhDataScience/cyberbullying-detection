@@ -52,7 +52,7 @@ from typing import List
 import polars as pl
 import pydantic
 
-from src.train.abstractions.ABC_validations import (
+from src.cyberbullying_detection.train.abstractions.ABC_validations import (
     IConfigModel,
     IConfigurationLoader,
     IValidationModel,
@@ -259,7 +259,7 @@ class BasicPipeline(ABC):
             logging.info("Pipeline execution finished.")
 
         # Override the run method for this instance
-        instance.run = MethodType(run, instance)
+        instance.__dict__["run"] = MethodType(run, instance)
 
         return instance
 

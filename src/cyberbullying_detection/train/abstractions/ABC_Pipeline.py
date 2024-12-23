@@ -52,7 +52,7 @@ from typing import List
 import polars as pl
 import pydantic
 
-from src.train.abstractions.ABC_validations import (
+from src.cyberbullying_detection.train.abstractions.ABC_validations import (
     IConfigModel,
     IConfigurationLoader,
     IValidationModel,

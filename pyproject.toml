@@ -8,12 +8,16 @@ authors = [
 ]
 requires-python = ">=3.11"
 dependencies = [
+    "ipywidgets>=8.1.5",
     "jupyterlab>=4.3.4",
     "langchain>=0.3.12",
     "mypy>=1.14.0",
+    "pandas>=2.2.3",
     "polars>=1.17.1",
+    "pyarrow>=18.1.0",
     "pydantic>=2.10.3",
     "scalene>=1.5.49",
+    "seaborn>=0.13.2",
     "torch>=2.5.1",
     "torchvision>=0.20.1",
     "transformers>=4.47.1",

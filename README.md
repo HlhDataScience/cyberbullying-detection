@@ -10,6 +10,8 @@ An approach to the agentic workflow combining classic DL and MLOps methodology.
 - [Contributing](#contributing)
 - [License](#license)
 - [Author](#author)
+- [ToDos](#ToDos)
+- [Done](#done)
 
 ## Introduction
 
@@ -20,3 +22,33 @@ The project now features several interfaces using Python protocols and abstract 
 Additionally, Python protocols provide a way to define structural subtyping, allowing us to specify the expected behavior of objects without requiring them to inherit from a specific class. This flexibility enhances the reusability of our code, as it allows different classes to be used interchangeably as long as they adhere to the defined protocol.
 
 We have also transitioned from using Poetry to `uv` for dependency management. This change was made to streamline our workflow and simplify the management of dependencies. `uv` offers a more lightweight and efficient approach, making it easier to handle project dependencies while maintaining compatibility with our development practices. We continue to utilize pre-commit hooks for code formatting and linting to ensure code quality and consistency across the project.
+
+## Installation
+
+"To be done"
+
+## Usage
+
+to be done.
+
+## Contributing
+
+## License
+
+## Author
+
+Héctor López Hidalgo
+
+## ToDos
+
+- ~~Clean the dataset and combine it in the EDA first approach~~
+- Create a comprehensive descriptive statistics to understand the data in the eda_jupyter notebook.
+- Create a functional style pipeline to preprocess the data for ModernBert Sequence Classification.
+- Create a functional style pipeline to train the model with Protocols.
+- Track the experiments and compare them. Select the best overall result based on the Sequence classification metrics.
+- Select the best open-source decoder-only llm for the langchain architecture.
+- Design a semantic router for the model. Check AurelioAI to do so.
+
+## Done
+
+- Dataset cleaned and prepared for statistical analysis.

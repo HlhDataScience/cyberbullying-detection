@@ -9,9 +9,9 @@
       <excludeFolder url="file://$MODULE_DIR$/.venv/include" />
       <excludeFolder url="file://$MODULE_DIR$/.venv/lib" />
       <excludeFolder url="file://$MODULE_DIR$/.venv/share" />
-      <excludeFolder url="file://$MODULE_DIR$/eda_notebooks/.ipynb_checkpoints" />
       <excludeFolder url="file://$MODULE_DIR$/src/cyberbullying_detection/train/datatrain" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks/.ipynb_checkpoints" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.11 [uv] (cyberbullying-detection)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

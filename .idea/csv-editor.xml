@@ -17,7 +17,35 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/src/cyberbullying_detection/train/datatrain/rawdata/3. Aggressive_All.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/cyberbullying_detection/train/datatrain/rawdata/4. Non_Aggressive_All.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/cyberbullying_detection/train/datatrain/rawdata/5. Communication_Data_Among_Users.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/src/cyberbullying_detection/train/datatrain/rawdata/6. CB_Labels.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/cyberbullying_detection/train/datatrain/rawdata/cyberbulling_cleantdata.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

@@ -42,7 +42,7 @@ Héctor López Hidalgo
 ## ToDos
 
 - ~~Clean the dataset and combine it in the EDA first approach~~
-- Create a comprehensive descriptive statistics to understand the data in the eda_jupyter notebook.
+- ~~Create a comprehensive descriptive statistics to understand the data in the eda_jupyter notebook.~~
 - Create a functional style pipeline to preprocess the data for ModernBert Sequence Classification.
 - Create a functional style pipeline to train the model with Protocols.
 - Track the experiments and compare them. Select the best overall result based on the Sequence classification metrics.
@@ -52,3 +52,4 @@ Héctor López Hidalgo
 ## Done
 
 - Dataset cleaned and prepared for statistical analysis.
+- Dataset analysed with plots and statistical insides.

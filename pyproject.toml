@@ -13,6 +13,7 @@ dependencies = [
     "langchain>=0.3.12",
     "mypy>=1.14.0",
     "pandas>=2.2.3",
+    "pandera[polars]>=0.22.1",
     "polars>=1.17.1",
     "pyarrow>=18.1.0",
     "pydantic>=2.10.3",

@@ -430,39 +430,51 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "hydra-core" },
-    { name = "ipywidgets" },
-    { name = "jupyterlab" },
     { name = "langchain" },
-    { name = "mypy" },
     { name = "pandas" },
     { name = "pandera", extra = ["polars"] },
     { name = "polars" },
     { name = "pyarrow" },
     { name = "pydantic" },
-    { name = "scalene" },
     { name = "seaborn" },
     { name = "torch" },
     { name = "torchvision" },
     { name = "transformers" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "ipywidgets" },
+    { name = "jupyterlab" },
+    { name = "mypy" },
+    { name = "scalene" },
+    { name = "seaborn" },
+    { name = "specialist" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "hydra-core", specifier = ">=1.3.2" },
-    { name = "ipywidgets", specifier = ">=8.1.5" },
-    { name = "jupyterlab", specifier = ">=4.3.4" },
     { name = "langchain", specifier = ">=0.3.12" },
-    { name = "mypy", specifier = ">=1.14.0" },
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "pandera", extras = ["polars"], specifier = ">=0.22.1" },
     { name = "polars", specifier = ">=1.17.1" },
     { name = "pyarrow", specifier = ">=18.1.0" },
     { name = "pydantic", specifier = ">=2.10.3" },
-    { name = "scalene", specifier = ">=1.5.49" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "torch", specifier = ">=2.5.1" },
     { name = "torchvision", specifier = ">=0.20.1" },
     { name = "transformers", specifier = ">=4.47.1" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "ipywidgets", specifier = ">=8.1.5" },
+    { name = "jupyterlab", specifier = ">=4.3.4" },
+    { name = "mypy", specifier = ">=1.14.0" },
+    { name = "scalene", specifier = ">=1.5.49" },
+    { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "specialist", specifier = ">=0.7.0" },
 ]
 
 [[package]]
@@ -2603,7 +2615,7 @@ dependencies = [
     { name = "jinja2" },
     { name = "numpy", version = "1.26.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
     { name = "numpy", version = "2.2.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
-    { name = "nvidia-ml-py", marker = "platform_system != 'Darwin'" },
+    { name = "nvidia-ml-py", marker = "sys_platform != 'darwin'" },
     { name = "psutil" },
     { name = "pydantic" },
     { name = "rich" },
@@ -2678,6 +2690,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/d7/ce/fbaeed4f9fb8b2daa961f90591662df6a86c1abf25c548329a86920aedfb/soupsieve-2.6.tar.gz", hash = "sha256:e2e68417777af359ec65daac1057404a3c8a5455bb8abc36f1a9866ab1a51abb", size = 101569 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d1/c2/fe97d779f3ef3b15f05c94a2f1e3d21732574ed441687474db9d342a7315/soupsieve-2.6-py3-none-any.whl", hash = "sha256:e72c4ff06e4fb6e4b5a9f0f55fe6e81514581fca1515028625d0f299c602ccc9", size = 36186 },
+]
+
+[[package]]
+name = "specialist"
+version = "0.7.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/bb/dc/b3f60b02f4356432790d52bb7db9e64d2e5ff799d246b757f3400cfcbd6e/specialist-0.7.0.tar.gz", hash = "sha256:bad93e2cdbc1f123c2161b14163ef66cef4113ea708f437751288a4ab221115d", size = 12514 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b5/13/e55fcee1af939a0c0274e5e21a1f7c48b4521c945886f7a63017d968b020/specialist-0.7.0-py3-none-any.whl", hash = "sha256:e9e7c8b071af90fee9b3c27f5a063f15c3a1950a9696da3e703878f8d5efa6db", size = 13016 },
 ]
 
 [[package]]

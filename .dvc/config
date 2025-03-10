@@ -1,3 +1,2 @@
-['remote "origin"']
-    url = s3://dvc
-    endpointurl = https://dagshub.com/data_analitics_HLH/cyberbullying-detection.s3
+[core]
+    autostage = true

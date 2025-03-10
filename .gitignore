@@ -1,15 +1,7 @@
-/src/cyberbullying_detection/train/datatrain
-
-notebooks/.ipynb_checkpoints/
+cyberbully-detection-dataset.zip
 .jupyter/
 .jupyter/desktop-settings.json
 .jupyter/desktop-workspaces/
-notebooks/1. users_data.csv
-notebooks/2. peerness_values.csv
-notebooks/3. Aggressive_All.csv
-notebooks/4. Non_Aggressive_All.csv
-notebooks/5. Communication_Data_Among_Users.csv
-notebooks/6. CB_Labels.csv
-notebooks/cyberbully_detection_rawdata.csv
-notebooks/cyberbulling_cleantdata.csv
-cyberbully-detection-dataset.zip
+.venv
+/data_source
+/notebooks

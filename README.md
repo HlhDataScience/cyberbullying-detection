@@ -37,7 +37,7 @@ We continue to utilize pre-commit hooks for code formatting and linting to ensur
 the project.
 
 ## Data Source
- We obtained the data from this [Kaggle webpage](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification/data)
+ We obtained the data from this [Kaggle webpage](https://www.kaggle.com/datasets/momo12341234/cyberbully-detection-dataset)
 ## Installation
 
 "To be done"
